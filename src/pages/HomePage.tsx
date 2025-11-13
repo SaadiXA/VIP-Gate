@@ -87,7 +87,7 @@ const HeroSection: React.FC = () => {
                     Your browser does not support the video tag.
                 </video>
 
-                <div className="absolute inset-0 bg-black/60"></div>
+                <div className="absolute inset-0 bg-black/30"></div>
                 
                 <button onClick={togglePlay} className="absolute bottom-8 right-8 z-20 p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors" aria-label={isVideoPlaying ? "Pause video" : "Play video"}>
                     {isVideoPlaying ? (

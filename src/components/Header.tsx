@@ -41,8 +41,12 @@ const Header: React.FC = () => {
     <header className="bg-gray-900 backdrop-blur-md fixed top-0 left-0 right-0 z-50 border-b border-gray-800 w-full shadow-lg">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-full">
         <div className="flex items-center justify-between h-16">
-          <NavLink to="/" className="flex items-center">
+          <NavLink to="/" className="flex items-center gap-3">
             <VipGateLogo className="h-12 w-auto" />
+            <div className="flex flex-col leading-tight">
+              <span className="text-[hsl(var(--gold))] font-bold text-lg tracking-wide">VIP Gate</span>
+              <span className="text-[hsl(var(--gold-darker))] text-xs font-medium">بوابة كبار الزوار</span>
+            </div>
           </NavLink>
 
           {/* Desktop Navigation */}
