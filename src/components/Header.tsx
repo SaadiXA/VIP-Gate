@@ -45,7 +45,7 @@ const Header: React.FC = () => {
             <VipGateLogo className="h-12 w-auto" />
             <div className="flex flex-col leading-tight">
               <span className="text-[hsl(var(--gold))] font-bold text-lg tracking-wide">VIP Gate</span>
-              <span className="text-[hsl(var(--gold-darker))] text-xs font-medium">بوابة كبار الزوار</span>
+              <span className="text-[hsl(var(--gold-darker))] text-xs font-medium">بوابة كبار الشخصيات</span>
             </div>
           </NavLink>
 
